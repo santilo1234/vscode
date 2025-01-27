@@ -11,3 +11,10 @@ let averageScore = scores.reduce((total, score) => total + score, 0) / scores.le
 
 console.log("Updated Scores:", scores);
 console.log("Average Score:", averageScore);
+
+let employee = {name: "John Doe", age: 30, department: "Marketing", isActive: true};
+  
+employee.department = "Sales";
+employee.position = "Manager";
+
+console.log(employee);  
