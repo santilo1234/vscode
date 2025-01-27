@@ -26,4 +26,8 @@ let customers = [{ name: "Alice", email: "alice@example.com", purchaseAmount: 12
 customers.push({name: "David", email: "david@example.com", purchaseAmount: 80.25});
 
 console.log(customers);
-  
+
+let order = {orderId: 101,customerName: "John Smith", amount: 250.00, calculateTax: function() {return this.amount * 0.10;}};
+
+console.log("Order Details:", order);
+console.log("Tax Amount:", order.calculateTax());
