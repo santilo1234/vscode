@@ -23,3 +23,7 @@ accountBalance *= 1.05; // Interest
 console.log("After interest: ", accountBalance);
 accountBalance /= 2; // Half balance
 console.log("After halving: ", accountBalance);
+
+let customerName = "Alice";
+let welcomeMessage = "Welcome, " + customerName + "!";
+console.log(welcomeMessage);
