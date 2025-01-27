@@ -18,3 +18,12 @@ employee.department = "Sales";
 employee.position = "Manager";
 
 console.log(employee);  
+
+
+let customers = [{ name: "Alice", email: "alice@example.com", purchaseAmount: 120.5 },
+{ name: "Bob", email: "bob@example.com", purchaseAmount: 45.75 },
+{ name: "Charlie", email: "charlie@example.com", purchaseAmount: 200.0 }];
+customers.push({name: "David", email: "david@example.com", purchaseAmount: 80.25});
+
+console.log(customers);
+  
