@@ -13,3 +13,13 @@ var isAvailable = true;
 console.log(productName, typeof productName);
 console.log(productPrice, typeof productPrice);
 console.log(isAvailable, typeof isAvailable);
+
+let accountBalance = 1000.00;
+accountBalance += 200; // Deposit
+console.log("After deposit: ", accountBalance);
+accountBalance -= 150; // Withdrawal
+console.log("After withdrawal: ", accountBalance);
+accountBalance *= 1.05; // Interest
+console.log("After interest: ", accountBalance);
+accountBalance /= 2; // Half balance
+console.log("After halving: ", accountBalance);
