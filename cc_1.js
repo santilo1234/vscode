@@ -27,3 +27,8 @@ console.log("After halving: ", accountBalance);
 let customerName = "Alice";
 let welcomeMessage = "Welcome, " + customerName + "!";
 console.log(welcomeMessage);
+
+let isLoggedIn = false;
+let hasAccess = isLoggedIn && isActive;
+
+console.log("Access granted: ", hasAccess);
